@@ -217,7 +217,7 @@ body{
 @media only screen and (max-width: 740px) {
 
    #logo{
-      width: 70px;
+      width: 60px;
    }
 
    .menu{
@@ -246,13 +246,13 @@ body{
       color:white; 
       margin-top:-20%; 
       font-weight: bold; 
-      margin-left:65%; 
+      margin-left:62%; 
       font-size:medium;
    }
    #demo{
       color:white; 
       font-weight: bold; 
-      margin-left:65%; 
+      margin-left:62%; 
       font-size:medium;
    }
    
