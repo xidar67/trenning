@@ -1,0 +1,319 @@
+
+body{
+   background-color: rgb(41, 0, 0);
+   background-image: url(immagini/bg.png);
+}
+
+
+.didascalia{
+   padding: 5% 10% 4%;
+   float: left;
+}
+.didascalia img{
+   float:right;
+   margin-left:3%;
+   width:30%;
+   border: solid; 
+   border-color: black;
+}
+.didascalia ul{
+   font-size: large;
+   color: #c0c0c0;
+   padding:2%;
+   padding-left: 3%;
+
+}
+.didascalia h2,h1{
+
+   padding-left:1%;
+   color: white;
+
+}
+.didascalia h3{
+
+   padding-left:3%;
+   color: white;
+
+}
+
+
+
+.integratori{
+   color:white;
+}
+
+.integratori p{
+   font-size: 130%;
+   text-align: center;
+}
+
+.integratori h2{
+
+   padding-left:3%;
+
+}
+.integratori img{
+   justify-items: center;
+   width:100%;
+   padding: 4% 30% 4%;
+}
+
+
+
+
+#sy{
+
+   float:left;
+   width:35%;
+   padding: 0%;
+   margin: 0%;
+
+}
+
+#sc{
+
+   float:right;
+   width:35%;
+   padding: 0%;
+   margin: 0%;
+
+}
+
+
+
+
+
+
+
+.jaycut{
+   width:100%;
+}
+
+.slide{
+   
+   width: 100%;
+   margin: 5% 0% 10%;
+   
+}
+
+.caption {
+   font-family: Verdana, sans-serif;
+   float: center;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   overflow: hidden;
+}
+.caption img {
+   float: center;
+   margin: 0;
+   margin: 2%;
+   background: #fff;
+   border: solid;
+   border-color: white;
+   width:96%;
+}
+.caption span {
+   float: center;
+   margin: 2%;
+   padding: 2%;
+   width: 96%;
+   color: #dedede;
+   background: rgba(0, 0, 0, 0.616);
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+.caption span strong {
+   font-weight: bold;
+   font-size: 140%;
+   text-transform: uppercase;
+   display: block;
+   padding-bottom: 5px;
+}
+
+.bb{
+      background-image: url(immagini/space.png);
+      padding:3%;
+
+}
+
+.bb h2{
+   text-align: center;
+   color: white;
+   font-size: 300%;
+   padding-top: 2%;
+   font-weight: bolder;
+   padding-bottom: 2%;
+}
+
+.bb hr{
+   color:white;
+   padding-bottom: 1%;
+}
+
+.rn{
+   width:90%;
+   justify-content: center;
+   margin-left:3%;
+   margin-bottom: 5%;
+   margin-top:3%;
+   border:solid;
+   border-color:white;
+}
+
+
+
+
+
+   .didascalia p{
+   
+      font-size: 130%;
+      color: #ffffff;
+      padding:2%;
+      
+   }
+   
+   #logo{width:120px;}
+   
+   .menu{
+      color:white; 
+      font-weight: bold;
+   }
+   #next{
+      font-size: large; 
+      float:right;
+      font-weight: bold; 
+      opacity: 0.5;
+      margin-top: -30%;
+   }
+   #previous{
+      font-size: large; 
+      float:left; 
+      font-weight: bold; 
+      opacity: 0.5;
+      margin-top: -30%;
+   }
+
+   #dtxt{
+      color:white; 
+      margin-top:-20%; 
+      font-weight: bold; 
+      margin-left:60%; 
+      font-size:200%;
+   }
+   #demo{
+      color:white;  
+      font-weight: bold; 
+      margin-left:60%; 
+      font-size:200%;
+   }
+
+
+
+
+
+
+@media only screen and (max-width: 740px) {
+
+   #logo{
+      width: 70px;
+   }
+
+   .menu{
+      color:white; 
+      font-weight: bold;
+      font-size: small;
+   }
+
+   #next{
+      font-size: 50%;  
+      margin-top: -30%; 
+      font-weight: bold; 
+      opacity: 0.5;
+      padding: 1%;
+      float:right;
+   }
+   #previous{
+      font-size: 50%; 
+      margin-top: -30%;
+      font-weight: bold; 
+      opacity: 0.5;
+      float:left;
+      padding: 1%;
+   }
+   #dtxt{
+      color:white; 
+      margin-top:-20%; 
+      font-weight: bold; 
+      margin-left:65%; 
+      font-size:medium;
+   }
+   #demo{
+      color:white; 
+      font-weight: bold; 
+      margin-left:65%; 
+      font-size:medium;
+   }
+   
+   .caption img {
+      margin: 5%;
+      background: #fff;
+      border: solid;
+      border-color: white;
+      width:90%;
+
+   }
+
+   #sy{
+
+      float:none;
+      width:50%;
+      padding: 0%;
+      margin: 5% 26% 5%;
+   
+   }
+   
+   #sc{
+   
+      float:none;
+      width:50%;
+      padding: 0%;
+      margin: 8% 25% 5%;
+   
+   }
+
+   .caption span {
+      float: left;
+      margin: 5%;
+      padding: 10px;
+      width: 90%;
+      color: #dedede;
+      background: rgba(0, 0, 0, 0.616);
+      position: absolute;
+      font-weight: bold;
+      font-size: medium;
+      text-transform: uppercase;
+      display: block;
+      padding-bottom: 5px;
+   }
+
+   .didascalia img{
+      width:90%;
+      margin-bottom: 3%;
+      float: none;
+      margin-right:5%;
+      margin-left: 5%;
+     
+   }
+
+
+.integratori img{
+   justify-items: center;
+   width:100%;
+   padding: 4% 10% 4%;
+}
+
+}
+
+
